@@ -1,0 +1,111 @@
+.fullWidth{
+    width: 100%;
+}
+.fullHeight{
+    height: 100%;
+}
+#root{
+    height: 100%;
+    width: 100%;
+}
+.h-font{
+    font-size: 22px;
+    padding-left: 20px;
+}
+.card-main{
+    width: 80%;
+    margin: auto;
+    padding-top: 40px;
+}
+.img-div{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: red;
+    margin: auto;
+    overflow: hidden;
+}
+.text-center{
+    text-align: center;
+}
+
+.progress{
+    width: 100%;
+    height: 100% !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 9999;
+    background-color: unset !important;
+    flex-direction: column;
+}
+
+.load-text{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.user-name{
+    font-size: 22px;
+    color: #6b6a6a;
+}
+
+.form-select{
+    width: 100%;
+    float: right;
+    text-align: end;
+    margin-bottom: 30px;
+}
+
+.form-width{
+    width: 200px;
+}
+
+.sort-text{
+    text-align: left;
+    font-size: 14px;
+    color: #3f51b5;
+}
+
+.view-user-main{
+    width: 75%;
+    /* background-color: red; */
+    /* height:100%; */
+    margin:auto;    
+}
+
+.view-img{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color:#3f51b5;
+    overflow: hidden;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.text-right{
+    text-align: right !important;
+}
+
+.text-left{
+    text-align: left !important;
+}
+
+.label-text{
+    font-size: 23px;
+}
+
+.value-text{
+    color: #6b6a6a;
+    font-size: 20px;
+}
