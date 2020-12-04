@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import './Users.css';
 import axios from 'axios';
-import { CircularProgress, Icon, IconButton } from '@material-ui/core';
+import { CircularProgress, IconButton } from '@material-ui/core';
 import { connect } from 'react-redux';
 
 const ViewUser = (props) => {
-    const [loading, setLoading] = useState(false);
+    const [loading, setLoading] = useState(true);
     const [userData, setUserData] = useState('');
 
     useEffect(() => {
